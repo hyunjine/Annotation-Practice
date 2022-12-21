@@ -163,6 +163,7 @@ obj/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
+.idea/deploymentTargetDropDown.xml
 
 # JIRA plugin
 atlassian-ide-plugin.xml
