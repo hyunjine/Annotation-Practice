@@ -1,7 +1,7 @@
 package com.hyunjine.annotation
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     private val annotationType: AnnotationType by lazy { AnnotationType() }
@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val result = annotationType.functionA(1, 2)
+        val result = annotationType.function2(11, 10)
         logger(result)
     }
 }
