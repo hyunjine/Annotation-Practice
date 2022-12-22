@@ -10,7 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val result = annotationType.function2(11, 10)
-        logger(result)
+        val result = annotationType.function3(b = 10)
     }
 }
