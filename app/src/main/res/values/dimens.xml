@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="alert_dialog_title_default" format="float" type="dimen">24f</item>
+</resources>

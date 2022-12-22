@@ -1,6 +1,8 @@
 package com.hyunjine.annotation
 
+import android.view.View
 import androidx.annotation.FloatRange
+import androidx.annotation.IntDef
 import androidx.annotation.IntRange
 
 class AnnotationType {
@@ -29,5 +31,4 @@ class AnnotationType {
     fun function4 (a: Int = 0, b: Int = 0) : Int {
         return a + b
     }
-
 }
