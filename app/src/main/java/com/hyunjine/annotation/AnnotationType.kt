@@ -1,8 +1,6 @@
 package com.hyunjine.annotation
 
-import android.view.View
 import androidx.annotation.FloatRange
-import androidx.annotation.IntDef
 import androidx.annotation.IntRange
 
 class AnnotationType {
