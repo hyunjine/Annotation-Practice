@@ -1,4 +1,4 @@
-package com.hyunjine.wt_annotation
+package com.hyunjine.wt_annotation.annotation
 
 @Target(AnnotationTarget.CLASS)
 annotation class DataValidation

@@ -14,5 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Annotation"
 include ':app'
-include ':wt_annotation'
-include ':wt_processor'
+include ':wt-annotation'
+include ':wt-processor'
